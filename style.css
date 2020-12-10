@@ -125,10 +125,10 @@ nav .logo {
     background: #19191A;
     border-radius: 48px;
     color: white;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
     right: 52%;
     bottom: 80px;
 }
@@ -137,10 +137,10 @@ nav .logo {
     background: #19191A;
     border-radius: 48px;
     color: white;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
     right: 39%;
     bottom: 80px;
 }

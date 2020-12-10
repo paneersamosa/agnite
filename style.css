@@ -100,6 +100,7 @@ nav .logo {
 }
 .goal-card {
     z-index: 1;
+    width: 10vw;
 }
 .our-goal {
     font-size: 64px;
@@ -120,11 +121,13 @@ nav .logo {
     text-align: center;
     position: absolute;
     z-index: 2;
+    margin: 1vw;
 }
 .learn-more {
     background: #19191A;
     border-radius: 48px;
     color: white;
+    font-weight: 700;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     padding-top: 1.5vw;
@@ -137,6 +140,7 @@ nav .logo {
     background: #19191A;
     border-radius: 48px;
     color: white;
+    font-weight: 700;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     padding-top: 1.5vw;

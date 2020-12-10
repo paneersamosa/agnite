@@ -104,6 +104,8 @@ nav .logo {
 .our-goal {
     font-size: 64px;
     font-weight: 700;
+    position: relative;
+    margin-top: 70%;
 }
 .centered {
     position: absolute;
@@ -127,4 +129,18 @@ nav .logo {
     padding-right: 2vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
+    right: 52%;
+    bottom: 0;
+}
+
+.meet-the-team{
+    background: #19191A;
+    border-radius: 48px;
+    color: white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    right: 40%;
+    bottom: 0;
 }

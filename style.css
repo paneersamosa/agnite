@@ -105,7 +105,7 @@ nav .logo {
     font-size: 64px;
     font-weight: 700;
     position: relative;
-    margin-top: 70%;
+    margin-top: 10%;
 }
 .centered {
     position: absolute;
@@ -117,12 +117,20 @@ nav .logo {
     font-size: 24px;
 }
 .goal-buttons {
+    display: flex;
+    align-items: center;
     text-align: center;
+    justify-content: space-between;
     position: absolute;
-    z-index: 2;
-    margin: 1vw;
 }
-.learn-more {
+.goal-buttons ul {
+    display: flex;
+    align-items: center;
+}
+.goal-buttons li {
+    list-style: none;
+    margin-right: 5vw;
+    text-decoration: none;
     background: #19191A;
     border-radius: 48px;
     color: white;
@@ -131,19 +139,10 @@ nav .logo {
     padding-right: 2.5vw;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
-    right: 52%;
-    bottom: 80px;
+    align-items: center;
 }
-
-.meet-the-team{
-    background: #19191A;
-    border-radius: 48px;
+.goal-buttons li a {
     color: white;
-    font-weight: 700;
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-    padding-top: 1.5vw;
-    padding-bottom: 1.5vw;
-    right: 39%;
-    bottom: 80px;
+    font-size: 24px;
+    text-decoration: none;
 }

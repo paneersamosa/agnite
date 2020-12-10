@@ -125,22 +125,22 @@ nav .logo {
     background: #19191A;
     border-radius: 48px;
     color: white;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     right: 52%;
-    bottom: 0;
+    bottom: 80px;
 }
 
 .meet-the-team{
     background: #19191A;
     border-radius: 48px;
     color: white;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    right: 40%;
-    bottom: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    right: 39%;
+    bottom: 80px;
 }

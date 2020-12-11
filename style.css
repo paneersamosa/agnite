@@ -82,6 +82,7 @@ nav .logo {
 }
 .get-started-button {
     background: #EF8354;
+    box-shadow: 0px 0px 50px #EF8354;
     border-radius: 48px;
     font-size: 24px;
     padding-left: 3vw;
@@ -97,19 +98,22 @@ nav .logo {
     text-align: center;
     color: black;
     margin: 1vw;
+    align-items: center;
 }
 .goal-card {
     z-index: 1;
+    align-items: center;
 }
 .our-goal {
     font-size: 64px;
     font-weight: 700;
     position: relative;
     margin-top: 10%;
+    align-items: center;
 }
 .centered {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -117,21 +121,24 @@ nav .logo {
     font-size: 24px;
 }
 .goal-buttons {
-    display: flex;
     align-items: center;
-    text-align: center;
-    justify-content: space-between;
     position: absolute;
+    bottom: 7vw;
+    left: 31%;
+
 }
 .goal-buttons ul {
     display: flex;
+    margin: 0 auto;
     align-items: center;
+    text-align: center;
 }
 .goal-buttons li {
     list-style: none;
     margin-right: 5vw;
     text-decoration: none;
     background: #19191A;
+    box-shadow: 0px 0px 25px #19191A;
     border-radius: 48px;
     color: white;
     font-weight: 700;
@@ -139,7 +146,7 @@ nav .logo {
     padding-right: 2.5vw;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
-    align-items: center;
+    
 }
 .goal-buttons li a {
     color: white;

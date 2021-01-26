@@ -85,11 +85,12 @@ nav ul {
     text-align: center;
     display: block;
     max-width: 80%;
+    color: #EF8354;
     margin: 2rem auto;
     font-size: 4.7vw;
 }
 .orange {
-    color: #F5917B;
+    background-color: #F5917B;
 }
 
 .btn-learn {
@@ -157,12 +158,6 @@ nav ul {
     padding: 15px 30px;
     margin:  1rem;
     border-radius: 48px;
-}
-
-
-.heading{
-    text-align: center;
-    color: #EF8354;
 }
 
 @import url(//cdn.rawgit.com/rtaibah/dubai-font-cdn/master/dubai-font.css);
@@ -851,6 +846,147 @@ input[type=text], select, textarea {
     width: 80%;
   }
 
+  .join-heading{
+      text-align: center;
+      color: #A1CEBA;
+  }
+  .join-heading-main {
+    text-align: center;
+    color: #EF8354;
+    font-size: 8vw;
+    margin: 5rem 0;
+  }
+  .join-links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .join-item{
+      padding: 1.3rem;
+      background-color: #EF8354;
+      color: #fff;
+      border-radius: 15px;
+      text-decoration: none;
+      margin: 10px;
+      box-shadow: 0px 0px 10px #EF8354;
+      transition: .4s all;
+  }
+
+  .join-item:hover {
+    background-color: #68a087;
+    box-shadow: 0px 0px 10px #68a087;
+
+  }
+  .join-section{
+      margin: 3rem 0;
+  }
+
+  .row, .team-executives{
+    /* max-height: 50vh; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  .member-pic{
+      z-index: 3;
+      height: 80%;
+      width: 80%;
+
+  }
+  .member, .card{
+      flex: 1.5rem;
+      max-width: 25%;
+      min-width: 20%;
+      text-align: center;
+      position:relative;
+  }
+
+  .heading-team{
+      margin-bottom: 9rem;
+  }
+  .member-inner{
+    border-radius: 15px;
+    padding: 0 1rem;
+    position: relative;
+    height: 40vh;
+  }
+
+  .green{
+    background-color: #6B9080;
+  }
+  .circle{
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      left: 50%;
+      z-index: 1;
+      top:0%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      justify-content:center;
+      align-items:center;
+  }
+  .member-inner-text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+  }
+  .member-name{
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  .row{
+      margin: 2rem 0;
+  }
+  .card{
+    border-radius: 5px;
+    height: 10vh;
+    display:flex;
+    padding: 1rem 0;
+    justify-content:space-between;
+  }
+  .member-picture{
+      flex: 1;
+  }
+  .member-text{
+      flex: 2;
+      text-align: left;
+  }
+  .profile-img{
+      width: 100%;
+      height: 100%;
+  }
+
+  .rajah{
+    background-color: #EF8354;
+  }
+.brown{
+    background-color: #9A8873;
+
+}
+
+.dark-card{
+    background-color: #fff;
+    color: #000;
+}
+  @media screen and (max-width: 600px){
+      .team-executives{
+          flex-direction: column;
+          justify-content: center;
+      }
+      .member{
+          max-width: 80%;
+          margin: 3rem 0;
+      }
+  }
   @media screen and (max-width: 800px){
       .heading{
           font-size: 30px;
@@ -869,4 +1005,13 @@ input[type=text], select, textarea {
         display: flex;  
         /* flex-direction: column; */   
       }
+
+      .join-links{
+          flex-direction: column;
+      }
+
+      .row{
+          flex-direction: column;
+      }
   }
+

@@ -1,82 +1,109 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>agnite</title>
+    <title>Agnite2</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    
-<--Favicon-->
-<link href="images/agnite logo.svg" rel="icon">
-    
-    
-    
-<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="nav-container">
-        <div class="wrapper">
-            <nav>
-                <div class="logo">
-                    <img class="logo-symbol" src="images/agnite logo.svg" width="7.5%" alt="">
-                    agnite
-                </div>
-                <ul class="nav-items">
-                    <li>
-                        <a href="team.html">Team</a>
-                    </li>
-                    <li>
-                        <a href="#">Join</a>
-                    </li>
-                    <li>
-                        <a href="#">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="#">Members</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <div class="resources">
-        <div class="resource-text">
-            <h1 class="passion-heading">Connecting resources to passion <br> <span class="orange">in a great way.</span></h1>
-        </div>
-        <div class="get-started">
-            <a href="#" class="get-started-button">Get Started</a>
-        </div>
-        <div class="goal">
-                <img class="goal-card" src="images/resources card.svg" alt="">
-                <div class="centered"><span class="orange our-goal">Our Goal</span><p><br>We are agnite, a nonprofit with the goal of spreading cultural and technological ties between high school in the United States and Indian secondary schools through robotics programs. Our program grooms robotics leaders, and makes practical STEM education more available for those in India.</p></div>
-                <div class="goal-buttons">
-                    <ul>
+    <div class = "container">
+        <div class="nav-wrapper">
+                <nav>
+                    <div class="logo">
+                        <img class="logo-symbol" src="images/agnite logo.svg">
+                    </div>
+                    <ul class="nav-items">
                         <li>
-                            <a href="#">Learn More</a>
+                            <a href="team.html">Team</a>
                         </li>
                         <li>
-                            <a href="#">Meet the Team</a>
+                            <a href="#">Join</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Members</a>
+                        </li>
+                        <li id = "icon">
+                            <a href = "javascript:void(0);" onclick = "open()">
+                                <i class = "fa fa-bars"></i>
+                            </a>
                         </li>
                     </ul>
+                </nav>
+    
+            </div>
+            
+            <h1 class= "heading">Connecting resources to passions in a great way.</h1>
+            <div class = "get-started">
+                <a href="#" class="btn-learn">Get Started</a>
+            </div>
+
+            <div class="goal">
+                <img class="goal-card" src="images/resources card.svg" alt="">
+                <div class="centered">
+                    <h1>Our Goal</h1>    
+                    <p>We are agnite, a nonprofit with the goal of spreading cultural and technological ties between high school in the United States and Indian secondary schools through robotics programs. Our program grooms robotics leaders, and makes practical STEM education more available for those in India.</p>
+                    <div class="goal-links">
+                        <a href="#">Learn More</a>
+                        <a href="#">Meet the Team</a>
+                    </div>
                 </div>
+             </div>
         </div>
-        <br>
+
+        <div class = "carousel">
+            <div class = "heading">What Students Say</div>
+            <div class = "testim" id = "testim">
+                <div class = "wrap"> 
+                    <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                    <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                    <ul id="testim-dots" class="dots">
+                        <li class="dot active"></li>
+                        <li class="dot"></li>
+                        <li class="dot"></li>
+                    </ul>
+                    <div id="testim-content" class="cont">
+                
+                        <div class="active test-1">
+                            <div class="img"><img src="images/quote2.svg" alt=""></div>
+                            <h2>Pahel S</h2>
+                            <p>
+                                Participating in FIRST taught me how to believe in myself. In fact, it is the reason I had the confidence to conceive this organization. Teaching robotics has taught me a lot about myself, and how to become a better leader and communicator. I hope to spread my love for teaching among other high school students!</p>                    
+                        </div>
+            
+                        <div class="test-2">
+                            <div class="img"><img src="images/quote2.svg" alt=""></div>
+                            <h2>Chloe W</h2>
+                            <p>December 10th, 2017. <br>I'll remember that day for the rest of my life - the day of my first FTC and the day I fell in love. Because of FIRST, I fell heads over heels for robotics, STEM, and the community around it all: because of FIRST, I found a passion, a family, and a home.</p>                    
+                        </div>
+            
+                        <div class="test-3">
+                            <div class="img"><img src="images/quote2.svg" alt=""></div>
+                            <h2>Jeongwoo C</h2>
+                            <p>From FTC to FRC, FIRST has given me the chance to explore a topic which most students don't. I was introduced to powertools, 3D printing, CNC routing, and many other technologies found in the industry as a high school student. The program helps build strong teamwork and communication skills among students.</p>                    
+                        </div>        
+                    </div>
+                </div>
+
+        </div>
+            
     </div>
-    <section id="testim" class="testim">
+
+
+    <!-- <section id="testim" class="testim">
         <h1 class="what-students-say">What Students Say</h1>
-        <!--         <div class="testim-cover"> -->
                     <div class="wrap">
         
                         <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
                         <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
                         <ul id="testim-dots" class="dots">
-                            <li class="dot active"></li><!--
-                            --><li class="dot"></li><!--
-                            --><li class="dot"></li>
+                            <li class="dot active"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
                         </ul>
                         <div id="testim-content" class="cont">
                             
@@ -101,27 +128,9 @@
                         </div>
         
                     </div>
-        <!--         </div> -->
-            </section>
-        <script src="main.js"></script>
+                </div>
+            </section> -->
         <script src="https://use.fontawesome.com/1744f3f671.js"></script>
-        
-    <!--<div class="contact-form">
-        <form action="action_page.php">
-      
-          <label for="fname">Full Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Full Name">
-      
-          <label for="lname">Email</label>
-          <input type="text" id="email" name="mail" placeholder="Email"> 
-      
-          <label for="subject">Message</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form>
-      </div>-->
     <script src="main.js"></script>
 </body>
 </html>

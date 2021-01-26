@@ -887,6 +887,7 @@ right: 5%;
     font-size: 25px;
     transition: 0.4s;
     margin: 0 auto;
+    position: static;
   }
   
   .active, .accordion:hover {
@@ -895,9 +896,11 @@ right: 5%;
   
   .panel {
     padding: 1rem;
+    position: static;
     display: none;
     /* background-color: #b6f0d8;; */
     line-height: 1.8;
+
     overflow: hidden;
 
     color: #A1CEBA;
@@ -958,7 +961,7 @@ right: 5%;
       width: 80%;
 
   }
-  .member, .card{
+  .member{
       flex: 1.5rem;
       max-width: 25%;
       min-width: 20%;
@@ -1076,6 +1079,9 @@ right: 5%;
 
       .row{
           flex-direction: column;
+      }
+      .card{
+          margin: 1rem 0;
       }
   }
 

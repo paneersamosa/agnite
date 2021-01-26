@@ -14,6 +14,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+AOS.init();
 
 'use strict'
 var testim = document.getElementById("testim"),
